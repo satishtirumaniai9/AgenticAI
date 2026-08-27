@@ -349,7 +349,7 @@ model = init_chat_model(
     model_provider="fireworks",
     model="accounts/fireworks/models/kimi-k3",
     api_key=os.getenv("FIREWORKS_API_KEY"),
-    base_url="https://api.fireworks.ai/inference/v1"
+    base_url="https://api.fireworks.ai/inference"
 )
 
 class NewTripRequest(BaseModel):
